@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Mi Tienda Online</h1>
+            <div class="cart-icon" onclick="toggleCarrito()" aria-label="Abrir carrito" role="button">
+                🛒 <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="productos" id="productos" aria-live="polite">
+            <!-- Productos dinámicos -->
+        </div>
+    </main>
+
+    <aside id="carrito" aria-hidden="true">
+        <h2>Carrito de Compras</h2>
+        <div id="carrito-items"></div>
+        <div class="total">Total: $<span id="total">0</span></div>
+        <button onclick="finalizarCompra()" class="finalizar-compra">
+            Finalizar Compra
+        </button>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Mi Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="Index.js"></script>
+</body>
+
+</html>
