@@ -1,6 +1,6 @@
 // Productos disponibles
 const productos = [
-    { id: 1, nombre: "Smartphone XYZ", precio: 499.99, imagen: "./images/Smarthone.png" },
+    { id: 1, nombre: "Smartphone XYZ", precio: 499.99, imagen: "Smarthone.png" },
     { id: 2, nombre: "Laptop Pro", precio: 999.99, imagen: "C:\Pagina de compras\Alapto.png" },
     { id: 3, nombre: "Auriculares Inalámbricos", precio: 79.99, imagen: "C:\Pagina de compras\Audifono.png" },
     { id: 4, nombre: "Smartwatch Sport", precio: 199.99, imagen: "C:\Pagina de compras\Smartwatch.png" }
